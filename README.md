@@ -1,6 +1,6 @@
 
 Steps followed:
-- started two docker containers using docker-compose.yaml, one for kestra and the other for postgres database for kestra.`\n`
+- started two docker containers using docker-compose.yaml, one for kestra and the other for postgres database for kestra.
                         `docker compose up -d`
 - used gcp_kv.yaml in kestra for setting the key-value pairs.
 - have created a key value pair for the service account json key directly in kestra, as a safety measure, have set the key expiry to 12 hours.
