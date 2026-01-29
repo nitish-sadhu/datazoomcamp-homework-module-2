@@ -14,13 +14,13 @@ QUIZ:
 -----------------------------
 
 Question - 1:
-uncompressed file size of the output file yellow_tripdata_2020-12.csv of the extract task is <b>134.5 MiB</b>
+uncompressed file size of the output file yellow_tripdata_2020-12.csv of the extract task is <b>134.5 MiB</b>.
 
 Question - 2:
-    green_tripdata_2020-04.csv
+rendered value of the variable file when the inputs taxi is set to green, year is set to 2020, and month is set to 04 during execution is <b>green_tripdata_2020-04.csv</b>.
 
 Question - 3:
-    24,648,499
+<b>24,648,499</b> rows are there for the Yellow Taxi data for all CSV files in the year 2020.
 
             select count(*) from (
                 select VendorID from `datazoomcamp-484706.NYCTaxiDataset.yellow_tripdata_2020_01`
@@ -50,7 +50,7 @@ Question - 3:
             ;
 
 Question - 4:
-    1,734,051
+<b>1,734,051</b> rows are there for the Yellow Taxi data for the March 2021 CSV file.
 
             select count(*) from (
                 select VendorID from `datazoomcamp-484706.NYCTaxiDataset.green_tripdata_2020_01`
@@ -85,4 +85,5 @@ Question - 5:
             select count(*) from `datazoomcamp-484706.NYCTaxiDataset.yellow_tripdata_2021_03`; 
 
 Question - 6:
+configure the timezone to New York in a Schedule trigger as follows:
     Add a timezone property set to America/New_York in the Schedule trigger configuration.
