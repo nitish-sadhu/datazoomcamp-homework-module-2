@@ -14,7 +14,7 @@ QUIZ:
 -----------------------------
 
 Question - 1:
-    134.5 MiB
+uncompressed file size of the output file yellow_tripdata_2020-12.csv of the extract task is <b>134.5 MiB</b>
 
 Question - 2:
     green_tripdata_2020-04.csv
