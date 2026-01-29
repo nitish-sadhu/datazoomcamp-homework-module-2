@@ -80,7 +80,7 @@ Question - 4:
             ;
 
 Question - 5:
-    1,925,152
+rows are there for the Yellow Taxi data for the March 2021 CSV file <b>1,925,152</b>.
 
             select count(*) from `datazoomcamp-484706.NYCTaxiDataset.yellow_tripdata_2021_03`; 
 
