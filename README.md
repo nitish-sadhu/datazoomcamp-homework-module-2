@@ -1,12 +1,11 @@
 
 Steps followed:
-    - started two docker containers using docker-compose.yaml, one for kestra and the other for postgres database for kestra.
-                            `docker compose up -d`
-
-    - used gcp_kv.yaml in kestra for setting the key-value pairs.
-    - have created a key value pair for the service account json key directly in kestra, as a safety measure, have set the key expiry to 12 hours.
-    - used the nyc_taxi_elt_scheduled.yaml to upload the data to Google Cloud Storage and create tables in bigQuery.
-    - I have used the backfill process provided by kestra to upload data from 2021(images provided for reference).
+- started two docker containers using docker-compose.yaml, one for kestra and the other for postgres database for kestra.
+                        `docker compose up -d`
+- used gcp_kv.yaml in kestra for setting the key-value pairs.
+- have created a key value pair for the service account json key directly in kestra, as a safety measure, have set the key expiry to 12 hours.
+- used the nyc_taxi_elt_scheduled.yaml to upload the data to Google Cloud Storage and create tables in bigQuery.
+- I have used the backfill process provided by kestra to upload data from 2021(images provided for reference).
 
 
 
